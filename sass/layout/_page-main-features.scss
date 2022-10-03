@@ -5,7 +5,9 @@
   gap: 30px;
 }
 .page-main-features__list-item {
-  flex-basis: calc((100% - 90px) / 4);
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
 }
 .page-main-features__bg-icon {
   display: flex;
@@ -31,7 +33,6 @@
 
   .page-main-features__list-item-text {
       margin-top: 10px;
-      margin-bottom: 30px;
       max-width: 450px;
     
       font-size: 14px;
@@ -50,12 +51,10 @@
     }
     
     .page-main-features__list-item {
-      flex-basis: calc((100% - 90px) / 4);
+      flex-basis: calc((100% - 30px)/2);
       
     }
-    .page-main-features__bg-icon {
-      width: 354px;
-    } 
+  
     .page-main-features__list-item-title {
       display: block;
     }

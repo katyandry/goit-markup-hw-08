@@ -84,6 +84,7 @@
     .mobile-menu__social-list {
         display: flex;
         gap: 20px;
+        flex-wrap: wrap;
     }
     
     .mobile-menu__social-list-item {

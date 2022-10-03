@@ -89,16 +89,11 @@ justify-content: center;
 
  @media screen and (min-width: 768px) {
   
-  .footer-social-block {
-    padding-left: 76px;
-  }
   .footer-wrapper__tablet {
     display: flex;
-  align-items: center;
-  justify-content: space-between;
-  }
-  .footer-block-icons {
-    padding-right: 89px;
+    align-items: baseline;  
+    justify-content: space-around;
+    margin-bottom: 60px;
   }
  }
 
