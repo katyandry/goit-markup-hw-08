@@ -1,0 +1,104 @@
+@media screen and (max-width: 767px) {
+    .mobile-menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+    
+    .mobile-menu.is-open {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+    }
+    
+    .mobile-menu__container {
+        position: relative;
+        padding-left: 40px;
+        padding-top: 48px;
+    }
+    
+    .mobile-menu__btn-close {
+        position: absolute;
+        top: 0;
+        right: 15px;
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        padding-top: 10px;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
+        &:hover, &:focus {
+            fill: #2196F3;
+        }
+    }
+    
+    .mobile-menu__list-item {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0.02em;
+    
+    &:not(:last-child) {
+        margin-bottom: 40px;
+    }
+    &:last-child {
+        margin-bottom: 302px;
+    }
+    }
+    
+    .mobile-menu__list-link--active {
+      color: #2196f3;
+    }
+    
+    .mobile-menu__list-contacts-phone {
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+    margin-bottom: 32px;
+    }
+    
+    .mobile-menu__list-contacts-phone-link {
+        color: #2196F3;
+    }
+    
+    .mobile-menu__list-contacts-mail {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    margin-bottom: 64px;
+    }
+    
+    .mobile-menu__list-contacts-mail-link {
+        color: #757575;
+    }
+    
+    .mobile-menu__social-list {
+        display: flex;
+        gap: 20px;
+    }
+    
+    .mobile-menu__social-list-item {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    }
+    
+    .mobile-menu__social-list-item-link {
+        color: #2196F3;
+    }
+}
+@media screen and (min-width: 768px) {
+    .mobile-menu {
+        display: none;
+    }
+}
