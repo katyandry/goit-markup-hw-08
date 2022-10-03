@@ -8,3 +8,24 @@
   letter-spacing: 0.03em;
   color: #ffffff;
 }
+
+@media screen and (max-width: 767px) {
+  .footer-block-icons-title {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-block-icons-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-block-icons-title {
+    display: block;
+  }
+}
