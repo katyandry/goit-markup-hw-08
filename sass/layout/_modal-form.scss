@@ -1,3 +1,13 @@
+@media screen and (max-width: 767px) {
+.modal-form-check-text {
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.03em;
+color: #757575;
+}
+}
+
 .modal-form-title {
   font-weight: 700;
   font-size: 20px;
@@ -109,6 +119,7 @@
   border: 2px solid #212121;
   border-radius: 2px;
   cursor: pointer;
+  flex-shrink: 0; 
 
   .modal-form-check:checked + & {
     background-color: #2196f3;

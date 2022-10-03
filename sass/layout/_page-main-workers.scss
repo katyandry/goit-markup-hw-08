@@ -1,5 +1,8 @@
 // mobile
-
+.page-main-workers__list-common {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 .page-main-workers {
   background-color: #f5f4fa;
 }
@@ -11,7 +14,7 @@
     justify-content: center;
   }
   .page-main-workers__list-item {
-      flex-basis: calc((100% - 90px) / 4);
+   
     
       box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -75,7 +78,7 @@
 
  @media screen and (max-width: 767px)  {
   .page-main-workers__list-img {
-    width: 450px;}
+    }
   }
 
   @media screen and (min-width: 768px) {
