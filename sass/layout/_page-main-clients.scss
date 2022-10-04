@@ -7,7 +7,7 @@
   justify-content: center;
 }
 .page-main-clients-list-item {
-  flex-basis: calc((100% - 60px)/3);
+   flex-basis: calc((100% - 30px)/2);
     
   }
   .page-main-clients-list-item-link {
@@ -35,8 +35,14 @@
          fill: #2196f3;
         }
       }
+ @media screen and (min-width: 768px) {
+  .page-main-clients-list-item {
+    flex-basis: calc((100% - 60px)/3);
+     
+   }
+ }    
 
-      
+
  @media screen and (min-width: 1200px) {
   .page-main-clients-list-item-link {
     width: 170px;

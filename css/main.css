@@ -286,6 +286,10 @@ a {
     fill: #2196f3;
   }
 }
+.page-main-hat {
+  background-size: cover;
+}
+
 @media screen and (max-width: 767px) {
   .page-main-hat {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero/img-hero-mobile.jpg");
@@ -614,7 +618,7 @@ a {
 }
 
 .page-main-clients-list-item {
-  flex-basis: calc((100% - 60px) / 3);
+  flex-basis: calc((100% - 30px) / 2);
 }
 
 .page-main-clients-list-item-link {
@@ -638,6 +642,11 @@ a {
   fill: #2196f3;
 }
 
+@media screen and (min-width: 768px) {
+  .page-main-clients-list-item {
+    flex-basis: calc((100% - 60px) / 3);
+  }
+}
 @media screen and (min-width: 1200px) {
   .page-main-clients-list-item-link {
     width: 170px;
